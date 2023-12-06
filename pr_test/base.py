@@ -1,5 +1,5 @@
 """
-pr_ai_test base module.
+pr_test base module.
 
 This is the principal module of the pr_ai_test project.
 here you put your main classes and objects.
@@ -14,4 +14,4 @@ and then choose `flask` as template.
 """
 
 # example constant variable
-NAME = "pr_ai_test"
+NAME = "pr_test"
