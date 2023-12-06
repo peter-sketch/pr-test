@@ -1,4 +1,4 @@
-"""CLI interface for pr_ai_test project.
+"""CLI interface for pr_test project.
 
 Be creative! do whatever you want!
 
@@ -7,6 +7,7 @@ Be creative! do whatever you want!
 - Start a web application
 - Import things from your .base module
 """
+from calculation import Calc
 
 
 def main():  # pragma: no cover
@@ -26,3 +27,9 @@ def main():  # pragma: no cover
         * Run an application (Flask, FastAPI, Django, etc.)
     """
     print("This will do something")
+    a = 5
+    b = 0
+    calculator =Calc()
+    print('Add:', calculator.add(a,b))
+    print('Div:', calculator.div(a, b))
+    
